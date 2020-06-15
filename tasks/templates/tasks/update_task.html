@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do App</title>
+</head>
+<body>
+<h2>Update Task </h2>
+<br/>
+<br/>
+
+<form method="post" action="/">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" name="Update Task">
+</form>
+
+<br/>
+
+
+</body>
+</html>

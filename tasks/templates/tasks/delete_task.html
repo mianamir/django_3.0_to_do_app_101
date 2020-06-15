@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do App</title>
+</head>
+<body>
+<h2>Delete Task </h2>
+<br/>
+<br/>
+
+<p>Are you sure you want to delete "{{ task }}"?</p>
+<a href="{% url 'list' %}">Cancel</a>
+
+<form method="post" action="">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" name="Confirm">
+</form>
+
+<br/>
+
+
+</body>
+</html>
