@@ -3,11 +3,7 @@ Django 3.0 and To-Do App that implement Create, Read, Update and Delete operatio
 
 # App Details
 
-<br/> Introduction
-<br/> Create project<br/>
-<br/> Migrate database & create user
-<br/> Create app
-<br/> URL Routing
+URL Routing
 <br/> Templates
 <br/> Create Model (Task)
 <br/> Render data (Tasks) in template
